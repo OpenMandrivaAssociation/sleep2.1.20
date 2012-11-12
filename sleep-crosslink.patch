@@ -1,0 +1,10 @@
+--- sleep/build.xml~	2005-01-30 04:20:20.145916859 -0500
++++ sleep/build.xml	2005-01-30 04:22:13.557830384 -0500
+@@ -48,6 +48,7 @@
+               destdir="docs/api"
+               windowtitle="Sleep API" 
+               overview="src/overview.html"
++              link="${java.javadoc}"
+      />
+   </target>
+ 

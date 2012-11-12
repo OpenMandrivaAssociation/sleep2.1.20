@@ -1,0 +1,20 @@
+--- sleep/build.xml.bak	2008-05-03 02:51:07.000000000 +0200
++++ sleep/build.xml	2008-05-03 02:51:50.000000000 +0200
+@@ -26,7 +26,7 @@
+ 
+   <target name="docs" description="build java documentation">
+      <javadoc packagenames="sleep.*"
+-              destdir="docs/api"
++              destdir="./api"
+               windowtitle="Sleep API" 
+               overview="src/overview.html">
+         <fileset dir="src" defaultexcludes="yes">
+@@ -54,7 +54,7 @@
+   <target name="docs-full" description="build ALL java documentation">
+      <javadoc packagenames="sleep.*"
+               sourcepath="src"
+-              destdir="docs/api"
++              destdir="./api"
+               windowtitle="Sleep API" 
+               overview="src/overview.html"
+               link="${java.javadoc}"
