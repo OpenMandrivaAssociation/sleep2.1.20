@@ -7,7 +7,7 @@ Release:        %mkrel 2.0.2
 Epoch:          1
 Summary:        Perl inspired embedable scripting language for Java applications
 License:        LGPL
-URL:            http://sleep.hick.org/
+URL:            https://sleep.hick.org/
 Group:          Development/Java
 Source0:        http://sleep.dashnine.org/download/sleep21b20.tgz
 Patch0:         sleep-crosslink.patch
